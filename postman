@@ -1,0 +1,308 @@
+{
+	"info": {
+		"_postman_id": "13616b8a-cad7-4b07-a750-6897010cb07f",
+		"name": "Filippe_Vacina",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Vacina",
+			"item": [
+				{
+					"name": "Adicionar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Nome\":\"Pra Xikungunha\",\r\n    \"DosesNecessarias\":5,\r\n    \"TipoVacina\":2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44367/api/Vacina/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44367",
+							"path": [
+								"api",
+								"Vacina",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Nome\":\"Pra Xikungunha\",\r\n    \"DosesNecessarias\":5,\r\n    \"TipoVacina\":2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44367/api/Vacina/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44367",
+							"path": [
+								"api",
+								"Vacina",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Nome\":\"Pra Xikungunha\",\r\n    \"DosesNecessarias\":5,\r\n    \"TipoVacina\":2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44367/api/Vacina/7CC1FD7A-2E29-4D1E-8DF9-4343E64D3778",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44367",
+							"path": [
+								"api",
+								"Vacina",
+								"7CC1FD7A-2E29-4D1E-8DF9-4343E64D3778"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "Adicionar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CPF\":\"22497247846\",\r\n    \"Nome\":\"Ana\",\r\n    \"DataNascimento\":\"1982-03-06\",\r\n    \"Email\":\"ana@ana.com\",\r\n    \"Genero\":2,\r\n    \"Passaporte\":\"CS345678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44367/api/Usuario/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44367",
+							"path": [
+								"api",
+								"Usuario",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CPF\":\"22497247846\",\r\n    \"Nome\":\"Ana\",\r\n    \"DataNascimento\":\"1982-03-06\",\r\n    \"Email\":\"ana@ana.com\",\r\n    \"Genero\":2,\r\n    \"Passaporte\":\"CS345678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44367/api/Usuario/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44367",
+							"path": [
+								"api",
+								"Usuario",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Com Vacina",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CPF\":\"22497247846\",\r\n    \"Nome\":\"Ana\",\r\n    \"DataNascimento\":\"1982-03-06\",\r\n    \"Email\":\"ana@ana.com\",\r\n    \"Genero\":2,\r\n    \"Passaporte\":\"CS345678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44367/api/Usuario/7786a958-cf8f-4523-ac5c-59b3e88b96ad/Vacina/7CC1FD7A-2E29-4D1E-8DF9-4343E64D3778",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44367",
+							"path": [
+								"api",
+								"Usuario",
+								"7786a958-cf8f-4523-ac5c-59b3e88b96ad",
+								"Vacina",
+								"7CC1FD7A-2E29-4D1E-8DF9-4343E64D3778"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Com Vacinas",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CPF\":\"22497247846\",\r\n    \"Nome\":\"Ana\",\r\n    \"DataNascimento\":\"1982-03-06\",\r\n    \"Email\":\"ana@ana.com\",\r\n    \"Genero\":2,\r\n    \"Passaporte\":\"CS345678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44367/api/Usuario/7786a958-cf8f-4523-ac5c-59b3e88b96ad/Vacinas",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44367",
+							"path": [
+								"api",
+								"Usuario",
+								"7786a958-cf8f-4523-ac5c-59b3e88b96ad",
+								"Vacinas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CPF\":\"22497247846\",\r\n    \"Nome\":\"Ana\",\r\n    \"DataNascimento\":\"1982-03-06\",\r\n    \"Email\":\"ana@ana.com\",\r\n    \"Genero\":2,\r\n    \"Passaporte\":\"CS345679\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44367/api/Usuario/7786a958-cf8f-4523-ac5c-59b3e88b96ad",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44367",
+							"path": [
+								"api",
+								"Usuario",
+								"7786a958-cf8f-4523-ac5c-59b3e88b96ad"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Vacinar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"VacinaId\":\"FBB930A5-48E2-47F5-94E6-F0F4D35C3831\",\r\n    \"ProximasDatas\":[\r\n        \"2021-05-20\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44367/api/Usuario/7786a958-cf8f-4523-ac5c-59b3e88b96ad/Vacinar",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44367",
+							"path": [
+								"api",
+								"Usuario",
+								"7786a958-cf8f-4523-ac5c-59b3e88b96ad",
+								"Vacinar"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

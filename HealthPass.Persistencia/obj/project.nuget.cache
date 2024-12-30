@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YhDm6VWHEi/MRAWas5ZqZ7IP/YS2bHpA/2usJbjSFNqUCnQT1SGxQnoEfTlmtL10B8Uh1GIoXxlpqb3JVI5URA==",
+  "success": true,
+  "projectFilePath": "C:\\Andre\\Others\\Felippe Domenico\\fillipe_domenico_HealthPass_project\\HealthPass.API\\HealthPass.Persistencia\\HealthPass.Persistencia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre.santarosa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\andre.santarosa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
